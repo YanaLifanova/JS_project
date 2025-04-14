@@ -7,5 +7,6 @@ describe('description of the suite', () => {
         cy.visit("https://www.automationexercise.com/test_cases");
         cy.get('a[href="/"]').should('have.css', 'color', 'rgb(66, 139, 202)');
 
+        
     });
 });
